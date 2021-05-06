@@ -10,5 +10,5 @@ jobs:
         uses: kangaechu/hello-world-composite-run-steps-action@v1.0.1
         with:
           who-to-greet: 'Mona the Octocat'
-      - run: echo rundom-number ${{ steps.foo.outps.random-number }}
+      - run: echo rundom-number ${{ steps.foo.outputs.random-number }}
         shell: bash
